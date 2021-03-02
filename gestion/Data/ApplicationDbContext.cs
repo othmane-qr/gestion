@@ -14,5 +14,6 @@ namespace gestion.Data
         {
         }
         public DbSet<gestion.Models.Etudiant> Etudiant { get; set; }
+        public DbSet<gestion.Models.Roles> Roles { get; set; }
     }
 }
